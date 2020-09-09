@@ -6,7 +6,7 @@ Avant de commencer. Consulter les instructions à suivre dans [instructions.md](
 
 ## Objectif
 
-Modifier les caractères pour que les lettres minuscules se transforment en majuscule, sans utiliser de fonctions natives de Python.
+Modifier les caractères pour que les lettres minuscules se transforment en majuscule, sans utiliser la fonction upper() de Python.
 
 ### Exemple
 ```python
@@ -27,3 +27,5 @@ def majuscule(mot):
 
 ### Encodage
 [Tableau ASCII](http://www.asciitable.com/)
+
+Les fonctions [ord() et chr()](https://docs.python.org/3.4/library/functions.html?highlight=ord) permettent de convertir des données caractères.
